@@ -1,0 +1,167 @@
+.navcol {
+    background-color: mediumturquoise;
+}
+
+.navcol a img {
+    width: 120px;
+    height: 80px;
+}
+
+.navcol h5 {
+    color: aliceblue;
+}
+
+.navcol ul li a {
+    color: aliceblue;
+}
+
+.navcol form .search {
+    width: 250px;
+    height: 50px;
+}
+
+.navcol form .clicksearch {
+    width: 100px;
+}
+
+.spann a {
+    color: black;
+    font-weight: 100;
+}
+
+.container .row .drop img {
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-item img {
+    height: 315px;
+}
+
+.container-bg {
+    background-image: url(../images/medical3.jpg);
+    background-size: 100% 100%;
+}
+
+.shadoww {
+    text-shadow: 1px 1px 1px black;
+}
+
+.form input {
+    box-shadow: 2px 2px 2px black;
+}
+
+.form textarea {
+    box-shadow: 2px 2px 2px black;
+}
+
+.form button {
+    box-shadow: 2px 2px 2px black;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+
+.border {
+    border-radius: 25px;
+    border: solid;
+    background-color: rgba(70, 66, 66, 0.055);
+    padding-bottom: 3px;
+}
+
+.border button {
+    width: 200px;
+}
+
+.container-register {
+    background-color: rgb(208, 212, 194);
+    background-image: url(../images/medical-register.webp);
+    background-size: 100% 100%;
+}
+
+.container-register .border-form {
+    background-color: rgba(89, 92, 92, 0.692);
+    padding-bottom: 3px;
+}
+
+.container-signin {
+    background-color: rgb(208, 212, 194);
+}
+
+.container-signin .border-form {
+    background-color: rgba(89, 92, 92, 0.692);
+    padding-top: 3px 3px 3px 3px;
+}
+
+.forgotpassword .forgotpass {
+    color: rgba(34, 36, 36, 0.692);
+}
+
+.forgotpassword .registernow {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: mediumturquoise;
+    color: rgba(44, 42, 42, 0.301);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: mediumturquoise;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: rgb(12, 48, 47);
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: mediumturquoise;
+}
